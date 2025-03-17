@@ -28,5 +28,6 @@ iface = gr.Interface(
     description="Upload an image to generate a caption"
 )
 
-iface.launch()
+iface.launch(server_name="0.0.0.0", server_port=8080)
+
 
